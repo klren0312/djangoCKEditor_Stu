@@ -1,0 +1,14 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登录后页面</title>
+</head>
+<body>
+登录成功后
+{% for x in list %}
+    <img src="/media/{{ x.img }}" alt="">
+{% endfor %}
+</body>
+</html>
